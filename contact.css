@@ -1,0 +1,14 @@
+.row{
+    border-bottom-right-radius: 130px;
+    border-top-left-radius: 85px;
+    height: 600px;
+    background-color: grey;
+    margin-top: 20px;   
+}
+.form-control{
+    border: transparent;
+    border-bottom: 1px solid grey;
+}
+.btn btn-secondary{
+    background-color: brown;
+}

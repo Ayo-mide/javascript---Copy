@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chat System</title>
+    <style>
+        html{
+            position: relative;
+            min-height: 100%;
+            overflow-x: hidden;
+        }
+        body{
+            background-image: url(air\ jordans.jpg);
+            background-size: cover;
+        }
+        .card{
+            background-color: #fff;
+            color: aqua;
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+        }
+        .card2{
+            background-color: black;
+            color: whitesmoke;
+            width: 200px;
+            height: 50px;
+            margin-left: 50%;
+            margin-top: 10%;
+            border-radius: 20px;
+        }
+        footer{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: auto;
+            width: 100%;
+        }
+        @media(max-width:420){
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <p id="message1"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card2">
+                    <p id="message2"></p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+                <button class="btn btn-primary" style="margin-top: -10px;"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function footerrAlign() {
+            $('footer').css('height','auto');
+            var footerHeight = $('footer').outerHeight();
+            $('body').css
+        }
+    </script>
+</body>
+</html>

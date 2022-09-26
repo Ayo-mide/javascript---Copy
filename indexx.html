@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h"></h1>
+    <h2 id="loop"></h2>
+    <h3 id="x"></h3>
+    <h4 id="n"></h4>
+    <h5 id="terminal"></h5>
+    <h6 id="gggggg"></h6>
+    <p id="hh"></p>
+
+    <script>
+        document.getElementById("loop").innerHTML="Welcome to my first javascript.";
+        document.getElementById("hh").innerHTML="Hello world";
+    </script>
+    <img id="jj" width="200" height="200">
+    <script>
+        document.getElementById("jj").src="scottandholly.jpg";
+    </script>
+    <p id="intro">Finding HTML Elements by Id</p>
+    <p id="demo"></p>
+    <script>
+        const element= document.getElementById("intro");
+        document.getElementById("demo").innerHTML=
+        "The text from the intro paragraph is:"
+        element.innerHTML;
+    </script>
+</body>
+</html>
